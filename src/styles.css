@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+/**
+*
+* Last Modified: 16-07-2017
+* Description: Stylesheet used by Pathshala Dashboard
+*
+**/
+
+/*********************************************************
+	TABLE OF CONTENTS
+	1. DASHBOARD
+	2. SIDE MENU
+	3. DASHBOARD STATS
+	4. USER DETAILS
+	5. CHART STYLES
+	6. DATATABLE STYLES
+**********************************************************/
+
+/*********************** 1 DASHBOARD *****************************/
+html, body {
+	font-family: 'Open Sans', sans-serif;
+	height: 100%;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+}
