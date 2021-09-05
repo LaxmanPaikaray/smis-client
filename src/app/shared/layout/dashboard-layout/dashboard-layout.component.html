@@ -1,0 +1,13 @@
+<app-header></app-header>
+<div class="parent-wrapper toggled" id="outer-wrapper">
+    <app-sidenav></app-sidenav>
+    <div class="main-content" id="content-wrapper">
+        <router-outlet></router-outlet>
+        <div class="menu-togggle-btn">
+            <a (click)="toggleSidebar()" id="menu-toggle"><i class="fa fa-bars"></i></a>
+        </div>
+    </div>
+    
+</div>
+
+<app-footer></app-footer>
